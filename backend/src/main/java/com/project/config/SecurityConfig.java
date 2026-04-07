@@ -36,7 +36,7 @@ public class SecurityConfig {
 	public org.springframework.web.cors.CorsConfigurationSource corsConfigurationSource() {
 	    org.springframework.web.cors.CorsConfiguration config = new org.springframework.web.cors.CorsConfiguration();
 
-	    config.setAllowedOrigins(java.util.List.of("http://localhost:5173"));
+	    config.setAllowedOrigins(java.util.List.of("http://localhost:5173", "https://interview-report-gen-ai-project-v1.vercel.app/"));
 	    config.setAllowedMethods(java.util.List.of("*"));
 	    config.setAllowedHeaders(java.util.List.of("*"));
 
